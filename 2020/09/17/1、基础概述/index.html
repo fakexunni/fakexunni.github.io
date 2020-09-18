@@ -7,6 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <title>
+    基础概述 |
     
     xunni</title>
   
@@ -32,6 +33,20 @@
 
     <div class="article-inner">
         
+            <header class="article-header">
+                
+  
+    <h1 class="article-title" itemprop="name">
+      基础概述
+    </h1>
+  
+  
+
+
+
+
+            </header>
+            
 
                 
                     <div class="article-meta">
@@ -59,7 +74,7 @@
                                             
 
                                                 
-                                                                    <h2 id="视频编辑"><a href="#视频编辑" class="headerlink" title="视频编辑"></a>视频编辑</h2><p>使用AVFoundation做视频编辑，我们从基础的开始说起，涉及到视频编辑的各个功能模块的单独实现和组合，视频编辑框架的设计。</p>
+                                                                    <p>使用AVFoundation做视频编辑，我们从基础的开始说起，涉及到视频编辑的各个功能模块的单独实现和组合，视频编辑框架的设计。</p>
 <h3 id="1、视频编辑必要的基础知识"><a href="#1、视频编辑必要的基础知识" class="headerlink" title="1、视频编辑必要的基础知识"></a>1、视频编辑必要的基础知识</h3><h4 id="1-1、AVFoundation介绍"><a href="#1-1、AVFoundation介绍" class="headerlink" title="1.1、AVFoundation介绍"></a>1.1、AVFoundation介绍</h4><p>AVFoundation是iOS开发者可以用来播放和创建基于时间的视听媒体的几个框架之一，其提供了检查、创建、编辑或重新编码媒体文件的接口，也使得从设备获取的视频实时数据可操纵。下图是AVFoundation在iOS上的体系结构</p>
 <p><img src="https://gitee.com/xunnia/WQPic/raw/master/uPic/661949-ecec19084285856f.png" alt="img"></p>
 <h4 id="1-2-AVFoundation类"><a href="#1-2-AVFoundation类" class="headerlink" title="1.2 AVFoundation类"></a>1.2 AVFoundation类</h4><h4 id="AVAsset（媒体资源）"><a href="#AVAsset（媒体资源）" class="headerlink" title="AVAsset（媒体资源）"></a>AVAsset（媒体资源）</h4><p><code>AVAsset</code>是一个抽象类和不可变类,定义了媒体资源混合呈现的方式.可以让我们开发者在处理时基媒体提供了一种简单统一的方式,它并不是媒体资源,但是它可以作为时基媒体的容器.</p>
